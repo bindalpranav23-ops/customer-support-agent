@@ -1,0 +1,53 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "tracking_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Where is my package with tracking number 123456?"}]
+      }
+    },
+    {
+      "eval_case_id": "rates_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "How much does it cost to ship a 5lb box from New York to Los Angeles?"}]
+      }
+    },
+    {
+      "eval_case_id": "returns_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What is your return policy for damaged items?"}]
+      }
+    },
+    {
+      "eval_case_id": "delivery_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "My package says delivered, but I haven't received it yet."}]
+      }
+    },
+    {
+      "eval_case_id": "coding_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can you write a Python function to sort a list of numbers?"}]
+      }
+    },
+    {
+      "eval_case_id": "weather_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "What's the weather like in Seattle right now?"}]
+      }
+    },
+    {
+      "eval_case_id": "general_knowledge_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Who was the first president of the United States?"}]
+      }
+    }
+  ]
+}
